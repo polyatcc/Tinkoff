@@ -1,11 +1,11 @@
-class Rectangle(override var name: String, var A : Double, var B : Double) : Shape{
+class Rectangle(override var name: String, var a : Double, var b : Double) : Shape() {
     override fun getPerimeter(): Double {
-        println("It's a rectangle. Perimeter: " + (A + B) * 2)
-        return (A + B) * 2
+        println("It's a rectangle. Perimeter: " + (a + b) * 2)
+        return (a + b) * 2
     }
 
     override fun getSquare(): Double {
-        println("It's a rectangle. Square: " + A * B)
-        return A * B
+        println("It's a rectangle. Square: " + a * b)
+        return a * b
     }
 }
