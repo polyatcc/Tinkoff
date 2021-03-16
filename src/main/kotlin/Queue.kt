@@ -11,7 +11,7 @@ class Queue<E> {
             return list.pollFirst()
         }
         else
-            throw Exception ("Queue is empty")
+            throw CustomException ("Queue is empty")
     }
 
 }
