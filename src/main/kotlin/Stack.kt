@@ -11,6 +11,6 @@ class Stack<E> {
             return list.pollLast()
         }
         else
-            throw Exception ("Stack is empty")
+            throw CustomException ("Stack is empty")
     }
 }
